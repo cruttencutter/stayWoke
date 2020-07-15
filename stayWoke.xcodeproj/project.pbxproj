@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		3084CE0424BEB8C10044C7C3 /* yourPinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3084CE0324BEB8C10044C7C3 /* yourPinsViewController.swift */; };
 		3084CE0624BEB8F50044C7C3 /* friendPinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3084CE0524BEB8F50044C7C3 /* friendPinsViewController.swift */; };
+		30F6914924BF560300244A03 /* newsArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F6914824BF560300244A03 /* newsArticlesViewController.swift */; };
+		30F6914B24BF561300244A03 /* videosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F6914A24BF561300244A03 /* videosViewController.swift */; };
+		30F6914D24BF562000244A03 /* petitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F6914C24BF562000244A03 /* petitionsViewController.swift */; };
+		30F6914F24BF563E00244A03 /* graphicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F6914E24BF563E00244A03 /* graphicsViewController.swift */; };
 		B554B83B24BE325900078257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554B83A24BE325900078257 /* AppDelegate.swift */; };
 		B554B83D24BE325900078257 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554B83C24BE325900078257 /* SceneDelegate.swift */; };
 		B554B83F24BE325900078257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554B83E24BE325900078257 /* ViewController.swift */; };
@@ -41,6 +45,10 @@
 /* Begin PBXFileReference section */
 		3084CE0324BEB8C10044C7C3 /* yourPinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yourPinsViewController.swift; sourceTree = "<group>"; };
 		3084CE0524BEB8F50044C7C3 /* friendPinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendPinsViewController.swift; sourceTree = "<group>"; };
+		30F6914824BF560300244A03 /* newsArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsArticlesViewController.swift; sourceTree = "<group>"; };
+		30F6914A24BF561300244A03 /* videosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videosViewController.swift; sourceTree = "<group>"; };
+		30F6914C24BF562000244A03 /* petitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petitionsViewController.swift; sourceTree = "<group>"; };
+		30F6914E24BF563E00244A03 /* graphicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graphicsViewController.swift; sourceTree = "<group>"; };
 		B554B83724BE325900078257 /* stayWoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stayWoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B554B83A24BE325900078257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B554B83C24BE325900078257 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +126,10 @@
 				B554B84324BE325900078257 /* stayWoke.xcdatamodeld */,
 				3084CE0324BEB8C10044C7C3 /* yourPinsViewController.swift */,
 				3084CE0524BEB8F50044C7C3 /* friendPinsViewController.swift */,
+				30F6914824BF560300244A03 /* newsArticlesViewController.swift */,
+				30F6914A24BF561300244A03 /* videosViewController.swift */,
+				30F6914C24BF562000244A03 /* petitionsViewController.swift */,
+				30F6914E24BF563E00244A03 /* graphicsViewController.swift */,
 			);
 			path = stayWoke;
 			sourceTree = "<group>";
@@ -274,7 +286,11 @@
 				B554B84524BE325900078257 /* stayWoke.xcdatamodeld in Sources */,
 				3084CE0424BEB8C10044C7C3 /* yourPinsViewController.swift in Sources */,
 				B554B83F24BE325900078257 /* ViewController.swift in Sources */,
+				30F6914F24BF563E00244A03 /* graphicsViewController.swift in Sources */,
 				B554B83B24BE325900078257 /* AppDelegate.swift in Sources */,
+				30F6914D24BF562000244A03 /* petitionsViewController.swift in Sources */,
+				30F6914B24BF561300244A03 /* videosViewController.swift in Sources */,
+				30F6914924BF560300244A03 /* newsArticlesViewController.swift in Sources */,
 				B554B86E24BE4C0B00078257 /* ArticlesCollectionViewController.swift in Sources */,
 				B554B83D24BE325900078257 /* SceneDelegate.swift in Sources */,
 				3084CE0624BEB8F50044C7C3 /* friendPinsViewController.swift in Sources */,
