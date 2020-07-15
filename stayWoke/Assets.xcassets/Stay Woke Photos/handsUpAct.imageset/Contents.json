@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "01302019_02_TravisWashington_RGB_CV-900x616.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
