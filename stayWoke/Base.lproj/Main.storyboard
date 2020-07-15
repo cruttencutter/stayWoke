@@ -51,6 +51,9 @@
                                 <state key="normal" title="Petitions">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="hqM-n7-o5Q" kind="show" id="frV-Xp-i4y"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jo-oP-aYp">
                                 <rect key="frame" x="70" y="651" width="275" height="73"/>
@@ -60,6 +63,9 @@
                                 <state key="normal" title="Graphics">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="wSd-ar-wYS" kind="show" id="CJK-b0-Fu3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymC-lp-Isn">
                                 <rect key="frame" x="0.0" y="804" width="169" height="92"/>
@@ -223,7 +229,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="pin" catalog="system"/>
                                 <connections>
-                                    <action selector="newsPinButton2:" destination="2jx-qf-PwS" eventType="touchUpInside" id="84q-1q-s15"/>
+                                    <segue destination="xi7-hK-Gqs" kind="show" id="U9i-jZ-24H"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUc-Wl-ULU">
@@ -232,7 +238,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="pin" catalog="system"/>
                                 <connections>
-                                    <action selector="newsPinButton1:" destination="2jx-qf-PwS" eventType="touchUpInside" id="u2v-JF-ZHf"/>
+                                    <segue destination="xi7-hK-Gqs" kind="show" id="QAu-HO-XLP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozu-Dw-99i">
@@ -241,7 +247,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="pin" catalog="system"/>
                                 <connections>
-                                    <action selector="newsPinButton3:" destination="2jx-qf-PwS" eventType="touchUpInside" id="oiT-v1-XUV"/>
+                                    <segue destination="xi7-hK-Gqs" kind="show" id="Z5O-Sp-pEw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cA8-Hv-22z">
@@ -250,7 +256,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="pin" catalog="system"/>
                                 <connections>
-                                    <action selector="newsPinButton4:" destination="2jx-qf-PwS" eventType="touchUpInside" id="lS2-25-GRB"/>
+                                    <segue destination="xi7-hK-Gqs" kind="show" id="Tlw-OQ-qqs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mwe-cy-p3g">
@@ -259,7 +265,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="pin" catalog="system"/>
                                 <connections>
-                                    <action selector="newsPinButton5:" destination="2jx-qf-PwS" eventType="touchUpInside" id="OKA-LZ-esr"/>
+                                    <segue destination="xi7-hK-Gqs" kind="show" id="3Kg-2P-Uoa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXg-5H-7Mj">
@@ -268,7 +274,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="pin" catalog="system"/>
                                 <connections>
-                                    <action selector="newsPinButton6:" destination="2jx-qf-PwS" eventType="touchUpInside" id="2FP-5a-Gbv"/>
+                                    <segue destination="xi7-hK-Gqs" kind="show" id="U3H-qL-zXN"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How BTS ARMY raised $1 million for Black Lives Matter" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="228-VC-c7J">
@@ -286,7 +292,7 @@
                                 <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <state key="normal" title=" Your Pins" image="person" catalog="system"/>
                                 <connections>
-                                    <segue destination="t7u-tt-Ztv" kind="show" id="FUL-M0-eLR"/>
+                                    <segue destination="J1f-3n-uji" kind="show" id="frz-jH-t6i"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZe-J3-xfe">
@@ -297,7 +303,7 @@
                                 <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <state key="normal" title=" Friends' Pins" image="person.2" catalog="system"/>
                                 <connections>
-                                    <segue destination="J1f-3n-uji" kind="show" id="2MZ-zo-c7H"/>
+                                    <segue destination="t7u-tt-Ztv" kind="show" id="dDE-eH-f3E"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MSA-LH-itb">
@@ -311,7 +317,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.88902229070000005" green="0.70974981780000002" blue="0.46292102340000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.92291998860000002" green="0.71051937340000004" blue="0.40605181460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="rZh-pP-Am0"/>
                     </view>
                     <navigationItem key="navigationItem" id="Epn-JH-b1y"/>
@@ -334,7 +340,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Epu-5g-uBy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="111.59420289855073" y="814.95535714285711"/>
+            <point key="canvasLocation" x="148" y="840"/>
         </scene>
         <!--Friend Pins View Controller-->
         <scene sceneID="5lp-YI-Bsa">
@@ -350,12 +356,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8vm-II-QcD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="986" y="815"/>
+            <point key="canvasLocation" x="-617" y="840"/>
         </scene>
-        <!--News Articles View Controller-->
+        <!--Videos View Controller-->
         <scene sceneID="MmJ-tC-Clg">
             <objects>
-                <viewController id="5ae-84-Ij9" customClass="newsArticlesViewController" customModule="stayWoke" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5ae-84-Ij9" customClass="videosViewController" customModule="stayWoke" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d5s-Ht-z6o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -530,6 +536,9 @@
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <state key="normal" title=" Your Pins" image="person" catalog="system"/>
+                                <connections>
+                                    <segue destination="J1f-3n-uji" kind="show" id="HLE-Xe-B6Y"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHF-d0-x9v">
                                 <rect key="frame" x="0.0" y="750" width="169" height="92"/>
@@ -538,6 +547,9 @@
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <state key="normal" title=" Friends' Pins" image="person.2" catalog="system"/>
+                                <connections>
+                                    <segue destination="t7u-tt-Ztv" kind="show" id="nme-qW-waC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tt-a3-QNq">
                                 <rect key="frame" x="167" y="750" width="99" height="92"/>
@@ -559,19 +571,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.88902229070000005" green="0.70974981780000002" blue="0.46292102340000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.92291998860000002" green="0.71051937340000004" blue="0.40605181460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="vaU-yC-yxs"/>
                     </view>
                     <navigationItem key="navigationItem" id="qoi-nZ-uYV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AFa-BJ-etR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2253.6231884057975" y="89.732142857142847"/>
+            <point key="canvasLocation" x="2254" y="-143"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="Wfr-HO-gc4">
             <objects>
-                <viewController id="CPr-aN-YfP" customClass="ViewController" customModule="stayWoke" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="CPr-aN-YfP" customClass="homeViewController" customModule="stayWoke" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5NV-3E-733">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -583,9 +595,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <state key="normal" title=" Your Pins" image="person" catalog="system"/>
-                                <connections>
-                                    <segue destination="t7u-tt-Ztv" kind="show" id="H4e-nP-Wud"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nma-8l-O7a">
                                 <rect key="frame" x="0.0" y="750" width="169" height="92"/>
@@ -594,9 +603,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <state key="normal" title=" Friends' Pins" image="person.2" catalog="system"/>
-                                <connections>
-                                    <segue destination="J1f-3n-uji" kind="show" id="X74-6B-rLC"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KgB-Qu-gk1">
                                 <rect key="frame" x="167" y="750" width="99" height="92"/>
@@ -641,6 +647,9 @@
                                 <state key="normal" title="Petitions">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="hqM-n7-o5Q" kind="show" id="67m-Q9-qeC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F6Q-CB-XMR">
                                 <rect key="frame" x="70" y="614" width="275" height="73"/>
@@ -650,6 +659,9 @@
                                 <state key="normal" title="Graphics">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="wSd-ar-wYS" kind="show" id="4JR-rt-EsU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.92291998860000002" green="0.71051937340000004" blue="0.40605181460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -659,15 +671,465 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GPc-c9-fcs" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2254" y="-804"/>
+            <point key="canvasLocation" x="2739" y="-974"/>
+        </scene>
+        <!--Add Pin View Controller-->
+        <scene sceneID="M1Q-sm-qZG">
+            <objects>
+                <viewController id="xi7-hK-Gqs" customClass="addPinViewController" customModule="stayWoke" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d07-T8-ugh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7a-Pc-sVo">
+                                <rect key="frame" x="60" y="93" width="294" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.48853057620000001" green="0.29662424329999998" blue="0.23679411410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G9U-Nk-SLT">
+                                <rect key="frame" x="60" y="203" width="294" height="315"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xR4-Bv-Jt9">
+                                <rect key="frame" x="173" y="547" width="181" height="97"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Select Board:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ntN-h2-3sR">
+                                <rect key="frame" x="60" y="564" width="92" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.48853057620000001" green="0.29662424329999998" blue="0.23679411410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oY5-5s-uhS">
+                                <rect key="frame" x="120" y="652" width="174" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.48853057620000001" green="0.29662424329999998" blue="0.23679411410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="15"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Create New Board"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQ5-mV-Uvy">
+                                <rect key="frame" x="20" y="20" width="71" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.48853057620000001" green="0.29662424329999998" blue="0.23679411410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="xmark.circle.fill" catalog="system">
+                                    <color key="titleColor" red="0.48853057620000001" green="0.29662424329999998" blue="0.23679411410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="font" scale="large">
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                    </preferredSymbolConfiguration>
+                                </state>
+                                <connections>
+                                    <segue destination="2jx-qf-PwS" kind="show" id="DDg-c2-QFJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="97F-rD-bRH">
+                                <rect key="frame" x="95" y="725" width="224" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="30"/>
+                                <state key="normal" title="Save Pin">
+                                    <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.8815409541" green="0.6790086031" blue="0.38691851500000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="nzm-9s-Z30"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gaU-Hb-kum"/>
+                    <connections>
+                        <outlet property="pickerView" destination="xR4-Bv-Jt9" id="vd0-1U-pv7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VRS-XT-i5h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1376.8115942028987" y="541.74107142857144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="T6A-uR-Xza">
+            <objects>
+                <viewController id="MKD-LA-x29" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gDA-UA-88Z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="CiZ-fP-3js"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dwo-R7-Mns" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1377" y="1215"/>
+        </scene>
+        <!--Petitions View Controller-->
+        <scene sceneID="ehV-Vd-dPU">
+            <objects>
+                <viewController id="hqM-n7-o5Q" customClass="petitionsViewController" customModule="stayWoke" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="anV-UL-Mij">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="georgeFloyd" translatesAutoresizingMaskIntoConstraints="NO" id="mHG-Fe-XrW">
+                                <rect key="frame" x="48" y="102" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="breonnaTaylor" translatesAutoresizingMaskIntoConstraints="NO" id="flw-YL-4HR">
+                                <rect key="frame" x="237" y="102" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Justice for George Floyd" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNU-es-99G">
+                                <rect key="frame" x="50" y="234" width="117" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change.org" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Qr-7d-5h8">
+                                <rect key="frame" x="256" y="230" width="80" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change.org" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2zg-yk-ASN">
+                                <rect key="frame" x="67" y="230" width="80" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Justice for Breonna Taylor" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ymx-cS-ub7">
+                                <rect key="frame" x="227" y="233" width="140" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="getTheOfficersCharged" translatesAutoresizingMaskIntoConstraints="NO" id="nvL-b0-NgU">
+                                <rect key="frame" x="52" y="317" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blm" translatesAutoresizingMaskIntoConstraints="NO" id="SqE-Qb-dQo">
+                                <rect key="frame" x="241" y="317" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Get the Officers Charged" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vpj-Dg-XmR">
+                                <rect key="frame" x="54" y="435" width="114" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change.org" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hf-46-LYG">
+                                <rect key="frame" x="260" y="445" width="80" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change.org" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ja2-QD-PVH">
+                                <rect key="frame" x="72" y="445" width="80" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Justice For Tony McDade" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98D-fp-LM5">
+                                <rect key="frame" x="236" y="453" width="128" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ahmaudArbery" translatesAutoresizingMaskIntoConstraints="NO" id="e2K-en-ho7">
+                                <rect key="frame" x="52" y="535" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="handsUpAct" translatesAutoresizingMaskIntoConstraints="NO" id="wxH-uK-ukq">
+                                <rect key="frame" x="241" y="535" width="120" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change.org" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4M7-Sb-BVz">
+                                <rect key="frame" x="261" y="663" width="80" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change.org" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZ9-IW-iKz">
+                                <rect key="frame" x="72" y="663" width="80" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDZ-dJ-0bd">
+                                <rect key="frame" x="321" y="102" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="pin" catalog="system"/>
+                                <connections>
+                                    <action selector="newsPinButton2:" destination="hqM-n7-o5Q" eventType="touchUpInside" id="WBr-6e-jPD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgb-xd-kZL">
+                                <rect key="frame" x="132" y="102" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="pin" catalog="system"/>
+                                <connections>
+                                    <action selector="newsPinButton1:" destination="hqM-n7-o5Q" eventType="touchUpInside" id="utS-ef-9Qc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="br7-oB-1ds">
+                                <rect key="frame" x="136" y="317" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="pin" catalog="system"/>
+                                <connections>
+                                    <action selector="newsPinButton3:" destination="hqM-n7-o5Q" eventType="touchUpInside" id="AyA-Gf-9WR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3p-sR-EDH">
+                                <rect key="frame" x="325" y="316" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="pin" catalog="system"/>
+                                <connections>
+                                    <action selector="newsPinButton4:" destination="hqM-n7-o5Q" eventType="touchUpInside" id="P5D-Eb-mtg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TFu-4z-p0u">
+                                <rect key="frame" x="136" y="535" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="pin" catalog="system"/>
+                                <connections>
+                                    <action selector="newsPinButton5:" destination="hqM-n7-o5Q" eventType="touchUpInside" id="3oj-YY-H6h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49y-AJ-MKc">
+                                <rect key="frame" x="325" y="535" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="pin" catalog="system"/>
+                                <connections>
+                                    <action selector="newsPinButton6:" destination="hqM-n7-o5Q" eventType="touchUpInside" id="d5f-vD-DDQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Disbarment of George E. Barnhill" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Est-xT-Hgx">
+                                <rect key="frame" x="55" y="666" width="115" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBB-cV-Gko">
+                                <rect key="frame" x="260" y="750" width="154" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.48853057620000001" green="0.29662424329999998" blue="0.23679411410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <state key="normal" title=" Your Pins" image="person" catalog="system"/>
+                                <connections>
+                                    <segue destination="J1f-3n-uji" kind="show" id="iW9-VC-FCo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OK0-FU-1fr">
+                                <rect key="frame" x="0.0" y="750" width="169" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.48853057620000001" green="0.29662424329999998" blue="0.23679411410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <state key="normal" title=" Friends' Pins" image="person.2" catalog="system"/>
+                                <connections>
+                                    <segue destination="t7u-tt-Ztv" kind="show" id="Pm1-ad-O5v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EEe-Oz-8OA">
+                                <rect key="frame" x="167" y="750" width="99" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.48853057620000001" green="0.29662424329999998" blue="0.23679411410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="house" catalog="system"/>
+                                <connections>
+                                    <segue destination="CPr-aN-YfP" kind="show" id="MOb-Rh-TYf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hands Up Act" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4p7-fM-qoV">
+                                <rect key="frame" x="238" y="678" width="128" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Petitions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDH-df-01o">
+                                <rect key="frame" x="119" y="39" width="177" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.48853057620000001" green="0.29662424329999998" blue="0.23679411410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92291998860000002" green="0.71051937340000004" blue="0.40605181460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Qky-r7-pYn"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4zE-b1-SRP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b8V-Ah-jfI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3220" y="-143"/>
+        </scene>
+        <!--Graphics View Controller-->
+        <scene sceneID="ysf-7I-nNE">
+            <objects>
+                <viewController id="wSd-ar-wYS" customClass="graphicsViewController" customModule="stayWoke" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RoM-kQ-oIe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="graphic1" translatesAutoresizingMaskIntoConstraints="NO" id="SOB-23-KpX">
+                                <rect key="frame" x="37" y="102" width="162" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="graphic2" translatesAutoresizingMaskIntoConstraints="NO" id="CD2-YU-oub">
+                                <rect key="frame" x="218" y="272" width="159" height="223"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="graphic3" translatesAutoresizingMaskIntoConstraints="NO" id="QZL-SZ-Icy">
+                                <rect key="frame" x="37" y="337" width="162" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="graphic4" translatesAutoresizingMaskIntoConstraints="NO" id="XpM-lp-V7N">
+                                <rect key="frame" x="218" y="102" width="159" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="graphic5" translatesAutoresizingMaskIntoConstraints="NO" id="sWG-Fm-lcC">
+                                <rect key="frame" x="37" y="513" width="162" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="graphic6" translatesAutoresizingMaskIntoConstraints="NO" id="Mk2-UZ-1M1">
+                                <rect key="frame" x="218" y="513" width="159" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWS-tR-doV">
+                                <rect key="frame" x="260" y="750" width="154" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.48853057620000001" green="0.29662424329999998" blue="0.23679411410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <state key="normal" title=" Your Pins" image="person" catalog="system"/>
+                                <connections>
+                                    <segue destination="J1f-3n-uji" kind="show" id="t9G-xL-S9d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQJ-oc-wgZ">
+                                <rect key="frame" x="0.0" y="750" width="169" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.48853057620000001" green="0.29662424329999998" blue="0.23679411410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="tintColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <state key="normal" title=" Friends' Pins" image="person.2" catalog="system"/>
+                                <connections>
+                                    <segue destination="t7u-tt-Ztv" kind="show" id="kEb-hz-r84"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLB-Yc-XuE">
+                                <rect key="frame" x="167" y="750" width="99" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.48853057620000001" green="0.29662424329999998" blue="0.23679411410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="house" catalog="system"/>
+                                <connections>
+                                    <segue destination="CPr-aN-YfP" kind="show" id="gKW-ST-GeV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8p-lK-qht">
+                                <rect key="frame" x="163" y="102" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="pin" catalog="system"/>
+                                <connections>
+                                    <action selector="newsPinButton6:" destination="wSd-ar-wYS" eventType="touchUpInside" id="7VP-zg-IPw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZf-JY-Kaq">
+                                <rect key="frame" x="341" y="102" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="pin" catalog="system"/>
+                                <connections>
+                                    <action selector="newsPinButton6:" destination="wSd-ar-wYS" eventType="touchUpInside" id="aDM-nZ-Fvf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9f-45-hiD">
+                                <rect key="frame" x="163" y="337" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="pin" catalog="system"/>
+                                <connections>
+                                    <action selector="newsPinButton6:" destination="wSd-ar-wYS" eventType="touchUpInside" id="w1o-8q-Wq6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4GE-I3-RKl">
+                                <rect key="frame" x="341" y="272" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="pin" catalog="system"/>
+                                <connections>
+                                    <action selector="newsPinButton6:" destination="wSd-ar-wYS" eventType="touchUpInside" id="tO1-dG-plk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SH3-9A-Jbe">
+                                <rect key="frame" x="163" y="513" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="pin" catalog="system"/>
+                                <connections>
+                                    <action selector="newsPinButton6:" destination="wSd-ar-wYS" eventType="touchUpInside" id="ylt-qk-lw3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBE-9j-ugW">
+                                <rect key="frame" x="341" y="513" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="pin" catalog="system"/>
+                                <connections>
+                                    <action selector="newsPinButton6:" destination="wSd-ar-wYS" eventType="touchUpInside" id="yiy-ih-xvI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Graphics" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ldk-t7-whe">
+                                <rect key="frame" x="119" y="37" width="177" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.48853057620000001" green="0.29662424329999998" blue="0.23679411410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92291998860000002" green="0.71051937340000004" blue="0.40605181460000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="AyK-CX-Oc3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="95H-XL-BE5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jFc-9d-4bB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4181" y="-143"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="7l1-Hi-MUG"/>
+        <segue reference="4JR-rt-EsU"/>
+        <segue reference="67m-Q9-qeC"/>
+        <segue reference="QAu-HO-XLP"/>
+        <segue reference="gKW-ST-GeV"/>
         <segue reference="Mgv-ri-MOA"/>
-        <segue reference="H4e-nP-Wud"/>
-        <segue reference="X74-6B-rLC"/>
-        <segue reference="5I8-7l-OM4"/>
+        <segue reference="kEb-hz-r84"/>
+        <segue reference="t9G-xL-S9d"/>
+        <segue reference="DDg-c2-QFJ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BLMResourcesVideo" width="636" height="314"/>
@@ -681,11 +1143,24 @@
         <image name="NYT" width="1024" height="683"/>
         <image name="NYTGirls" width="1024" height="683"/>
         <image name="Reuters" width="851" height="456"/>
+        <image name="ahmaudArbery" width="586" height="588"/>
+        <image name="blm" width="1504" height="1504"/>
+        <image name="breonnaTaylor" width="460" height="259"/>
+        <image name="georgeFloyd" width="1100" height="619"/>
+        <image name="getTheOfficersCharged" width="2500" height="938"/>
+        <image name="graphic1" width="564" height="752"/>
+        <image name="graphic2" width="564" height="559"/>
+        <image name="graphic3" width="564" height="317"/>
+        <image name="graphic4" width="564" height="564"/>
+        <image name="graphic5" width="563" height="717"/>
+        <image name="graphic6" width="564" height="797"/>
+        <image name="handsUpAct" width="900" height="616"/>
         <image name="house" catalog="system" width="128" height="110"/>
         <image name="logo" width="200" height="200"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="person.2" catalog="system" width="128" height="81"/>
         <image name="pin" catalog="system" width="119" height="128"/>
         <image name="wantToBeEducated" width="201" height="135"/>
+        <image name="xmark.circle.fill" catalog="system" width="128" height="121"/>
     </resources>
 </document>

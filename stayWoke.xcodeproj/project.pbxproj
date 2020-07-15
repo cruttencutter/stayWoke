@@ -22,7 +22,9 @@
 		B554B84A24BE325D00078257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B554B84824BE325D00078257 /* LaunchScreen.storyboard */; };
 		B554B85524BE325D00078257 /* stayWokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554B85424BE325D00078257 /* stayWokeTests.swift */; };
 		B554B86024BE325D00078257 /* stayWokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554B85F24BE325D00078257 /* stayWokeUITests.swift */; };
-		B554B86E24BE4C0B00078257 /* ArticlesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554B86D24BE4C0B00078257 /* ArticlesCollectionViewController.swift */; };
+		B58C39EE24BFA73500C6FD6F /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39ED24BFA73500C6FD6F /* homeViewController.swift */; };
+		B58C39F024BFAA6800C6FD6F /* pinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39EF24BFAA6800C6FD6F /* pinViewController.swift */; };
+		B58C39F224BFADC400C6FD6F /* addPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39F124BFADC400C6FD6F /* addPinViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +66,9 @@
 		B554B85B24BE325D00078257 /* stayWokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stayWokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B554B85F24BE325D00078257 /* stayWokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stayWokeUITests.swift; sourceTree = "<group>"; };
 		B554B86124BE325D00078257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B554B86D24BE4C0B00078257 /* ArticlesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesCollectionViewController.swift; sourceTree = "<group>"; };
+		B58C39ED24BFA73500C6FD6F /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		B58C39EF24BFAA6800C6FD6F /* pinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinViewController.swift; sourceTree = "<group>"; };
+		B58C39F124BFADC400C6FD6F /* addPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +123,9 @@
 				B554B83C24BE325900078257 /* SceneDelegate.swift */,
 				B554B83E24BE325900078257 /* ViewController.swift */,
 				B554B84024BE325900078257 /* Main.storyboard */,
-				B554B86D24BE4C0B00078257 /* ArticlesCollectionViewController.swift */,
+				B58C39F124BFADC400C6FD6F /* addPinViewController.swift */,
+				B58C39EF24BFAA6800C6FD6F /* pinViewController.swift */,
+				B58C39ED24BFA73500C6FD6F /* homeViewController.swift */,
 				B554B84624BE325D00078257 /* Assets.xcassets */,
 				B554B84824BE325D00078257 /* LaunchScreen.storyboard */,
 				B554B84B24BE325D00078257 /* Info.plist */,
@@ -283,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58C39F024BFAA6800C6FD6F /* pinViewController.swift in Sources */,
 				B554B84524BE325900078257 /* stayWoke.xcdatamodeld in Sources */,
 				3084CE0424BEB8C10044C7C3 /* yourPinsViewController.swift in Sources */,
 				B554B83F24BE325900078257 /* ViewController.swift in Sources */,
@@ -290,9 +297,10 @@
 				B554B83B24BE325900078257 /* AppDelegate.swift in Sources */,
 				30F6914D24BF562000244A03 /* petitionsViewController.swift in Sources */,
 				30F6914B24BF561300244A03 /* videosViewController.swift in Sources */,
+				B58C39EE24BFA73500C6FD6F /* homeViewController.swift in Sources */,
 				30F6914924BF560300244A03 /* newsArticlesViewController.swift in Sources */,
-				B554B86E24BE4C0B00078257 /* ArticlesCollectionViewController.swift in Sources */,
 				B554B83D24BE325900078257 /* SceneDelegate.swift in Sources */,
+				B58C39F224BFADC400C6FD6F /* addPinViewController.swift in Sources */,
 				3084CE0624BEB8F50044C7C3 /* friendPinsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
