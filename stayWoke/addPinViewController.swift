@@ -24,7 +24,7 @@ import UIKit
 
 class addPinViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
-    let colors = ["Red","Yellow","Green","Blue"]
+    let colors = ["Articles","Videos","Petitions","Graphics"]
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
