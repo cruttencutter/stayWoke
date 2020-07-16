@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3084CE0424BEB8C10044C7C3 /* yourPinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3084CE0324BEB8C10044C7C3 /* yourPinsViewController.swift */; };
-		3084CE0624BEB8F50044C7C3 /* friendPinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3084CE0524BEB8F50044C7C3 /* friendPinsViewController.swift */; };
 		30F6914924BF560300244A03 /* newsArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F6914824BF560300244A03 /* newsArticlesViewController.swift */; };
 		30F6914B24BF561300244A03 /* videosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F6914A24BF561300244A03 /* videosViewController.swift */; };
 		30F6914D24BF562000244A03 /* petitionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F6914C24BF562000244A03 /* petitionsViewController.swift */; };
 		30F6914F24BF563E00244A03 /* graphicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F6914E24BF563E00244A03 /* graphicsViewController.swift */; };
+		B53C27C824C0DFA700BE9F36 /* addPinViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C27C724C0DFA700BE9F36 /* addPinViewController2.swift */; };
+		B53C27CA24C0E0CD00BE9F36 /* addPinViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C27C924C0E0CD00BE9F36 /* addPinViewController3.swift */; };
+		B53C27CC24C0E17B00BE9F36 /* addPinViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C27CB24C0E17B00BE9F36 /* addPinViewController4.swift */; };
 		B554B83B24BE325900078257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554B83A24BE325900078257 /* AppDelegate.swift */; };
 		B554B83D24BE325900078257 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554B83C24BE325900078257 /* SceneDelegate.swift */; };
 		B554B83F24BE325900078257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554B83E24BE325900078257 /* ViewController.swift */; };
@@ -22,7 +23,6 @@
 		B554B84A24BE325D00078257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B554B84824BE325D00078257 /* LaunchScreen.storyboard */; };
 		B554B85524BE325D00078257 /* stayWokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554B85424BE325D00078257 /* stayWokeTests.swift */; };
 		B554B86024BE325D00078257 /* stayWokeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B554B85F24BE325D00078257 /* stayWokeUITests.swift */; };
-		B58C39EE24BFA73500C6FD6F /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39ED24BFA73500C6FD6F /* homeViewController.swift */; };
 		B58C39F024BFAA6800C6FD6F /* pinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39EF24BFAA6800C6FD6F /* pinViewController.swift */; };
 		B58C39F224BFADC400C6FD6F /* addPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C39F124BFADC400C6FD6F /* addPinViewController.swift */; };
 /* End PBXBuildFile section */
@@ -45,12 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3084CE0324BEB8C10044C7C3 /* yourPinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yourPinsViewController.swift; sourceTree = "<group>"; };
-		3084CE0524BEB8F50044C7C3 /* friendPinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendPinsViewController.swift; sourceTree = "<group>"; };
 		30F6914824BF560300244A03 /* newsArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsArticlesViewController.swift; sourceTree = "<group>"; };
 		30F6914A24BF561300244A03 /* videosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videosViewController.swift; sourceTree = "<group>"; };
 		30F6914C24BF562000244A03 /* petitionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = petitionsViewController.swift; sourceTree = "<group>"; };
 		30F6914E24BF563E00244A03 /* graphicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graphicsViewController.swift; sourceTree = "<group>"; };
+		B53C27C724C0DFA700BE9F36 /* addPinViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPinViewController2.swift; sourceTree = "<group>"; };
+		B53C27C924C0E0CD00BE9F36 /* addPinViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPinViewController3.swift; sourceTree = "<group>"; };
+		B53C27CB24C0E17B00BE9F36 /* addPinViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPinViewController4.swift; sourceTree = "<group>"; };
 		B554B83724BE325900078257 /* stayWoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stayWoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B554B83A24BE325900078257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B554B83C24BE325900078257 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,7 +67,6 @@
 		B554B85B24BE325D00078257 /* stayWokeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stayWokeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B554B85F24BE325D00078257 /* stayWokeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stayWokeUITests.swift; sourceTree = "<group>"; };
 		B554B86124BE325D00078257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B58C39ED24BFA73500C6FD6F /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		B58C39EF24BFAA6800C6FD6F /* pinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinViewController.swift; sourceTree = "<group>"; };
 		B58C39F124BFADC400C6FD6F /* addPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,15 +123,15 @@
 				B554B83C24BE325900078257 /* SceneDelegate.swift */,
 				B554B83E24BE325900078257 /* ViewController.swift */,
 				B554B84024BE325900078257 /* Main.storyboard */,
+				B53C27C924C0E0CD00BE9F36 /* addPinViewController3.swift */,
+				B53C27CB24C0E17B00BE9F36 /* addPinViewController4.swift */,
 				B58C39F124BFADC400C6FD6F /* addPinViewController.swift */,
+				B53C27C724C0DFA700BE9F36 /* addPinViewController2.swift */,
 				B58C39EF24BFAA6800C6FD6F /* pinViewController.swift */,
-				B58C39ED24BFA73500C6FD6F /* homeViewController.swift */,
 				B554B84624BE325D00078257 /* Assets.xcassets */,
 				B554B84824BE325D00078257 /* LaunchScreen.storyboard */,
 				B554B84B24BE325D00078257 /* Info.plist */,
 				B554B84324BE325900078257 /* stayWoke.xcdatamodeld */,
-				3084CE0324BEB8C10044C7C3 /* yourPinsViewController.swift */,
-				3084CE0524BEB8F50044C7C3 /* friendPinsViewController.swift */,
 				30F6914824BF560300244A03 /* newsArticlesViewController.swift */,
 				30F6914A24BF561300244A03 /* videosViewController.swift */,
 				30F6914C24BF562000244A03 /* petitionsViewController.swift */,
@@ -289,19 +289,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53C27CA24C0E0CD00BE9F36 /* addPinViewController3.swift in Sources */,
+				B53C27C824C0DFA700BE9F36 /* addPinViewController2.swift in Sources */,
 				B58C39F024BFAA6800C6FD6F /* pinViewController.swift in Sources */,
 				B554B84524BE325900078257 /* stayWoke.xcdatamodeld in Sources */,
-				3084CE0424BEB8C10044C7C3 /* yourPinsViewController.swift in Sources */,
 				B554B83F24BE325900078257 /* ViewController.swift in Sources */,
+				B53C27CC24C0E17B00BE9F36 /* addPinViewController4.swift in Sources */,
 				30F6914F24BF563E00244A03 /* graphicsViewController.swift in Sources */,
 				B554B83B24BE325900078257 /* AppDelegate.swift in Sources */,
 				30F6914D24BF562000244A03 /* petitionsViewController.swift in Sources */,
 				30F6914B24BF561300244A03 /* videosViewController.swift in Sources */,
-				B58C39EE24BFA73500C6FD6F /* homeViewController.swift in Sources */,
 				30F6914924BF560300244A03 /* newsArticlesViewController.swift in Sources */,
 				B554B83D24BE325900078257 /* SceneDelegate.swift in Sources */,
 				B58C39F224BFADC400C6FD6F /* addPinViewController.swift in Sources */,
-				3084CE0624BEB8F50044C7C3 /* friendPinsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
